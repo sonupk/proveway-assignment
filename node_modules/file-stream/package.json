@@ -1,0 +1,31 @@
+{
+  "name": "file-stream",
+  "version": "0.0.0",
+  "description": "A HTTP server helper for streaming resources.",
+  "main": "index.js",
+  "dependencies": {
+    "mime": "~1.2.11",
+    "range-parser": "~0.0.4"
+  },
+  "devDependencies": {
+    "tape": "~1.1.1",
+    "request": "~2.27.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:michaelrhodes/file-stream.git"
+  },
+  "keywords": [
+    "media",
+    "streaming",
+    "http"
+  ],
+  "author": "Michael Rhodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/file-stream/issues"
+  }
+}
