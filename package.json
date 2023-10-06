@@ -1,0 +1,24 @@
+{
+  "name": "proveway-assignment",
+  "version": "1.0.0",
+  "description": "Nodejs app to download and upload large video files from google drive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonupk/proveway-assignment.git"
+  },
+  "author": "Sonu kamble",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonupk/proveway-assignment/issues"
+  },
+  "homepage": "https://github.com/sonupk/proveway-assignment#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "googleapis": "^126.0.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}
